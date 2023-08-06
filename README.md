@@ -16,10 +16,13 @@ In this challenge, you will enhance your JavaScript skills and knowledge. Each d
  - [Deep JavaScript Foundations, v3](https://frontendmasters.com/courses/deep-javascript-v3/)
 
 ## Coding Challenges
- - [First Challenge](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-algorithm-scripting/convert-celsius-to-fahrenheit).
+ - [First Challenge](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/compound-assignment-with-augmented-multiplication).
    
- - [Second Challenge](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-algorithm-scripting/reverse-a-string)
+ - [Second Challenge](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/concatenating-strings-with-the-plus-equals-operator).
 
+ - [Third Challenge](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/object-oriented-programming/use-dot-notation-to-access-the-properties-of-an-object)
+
+ - Fourth Challenge
 
 ## Daily Learning Process
 1. Each day, you will watch 90 minutes of the assigned courses listed above.
