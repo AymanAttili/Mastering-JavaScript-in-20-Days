@@ -4,29 +4,29 @@
 <h3>By id:</h3>
 
 ```javascript
-document.getElementById('id');
+document.getElementById('id'); //returns one element
 ```
 or
 ```javascript
-document.querySelector('#id');
+document.querySelector('#id'); //returns one element
 ```
 
 <h3>By tag name:</h3>
 
 ```javascript
-document.getElementsByTagNane('h1'); 
+document.getElementsByTagNane('h1'); //returns a nodeList
 ```
 or 
 ```javascript
-document.querySelectorall('h1');
+document.querySelectorall('h1'); //returns a nodeList
 ```
 
 <h3>By class name:</h3>
 
 ```javascript
-document.getElementsByClassNane('class'); 
+document.getElementsByClassNane('class'); //returns a nodeList
 ```
 or 
 ```javascript
-document.querySelectorall('.class');
+document.querySelectorall('.class'); //returns a nodeList
 ```
