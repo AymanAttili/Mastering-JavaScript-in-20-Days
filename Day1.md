@@ -6,10 +6,12 @@
 ```javascript
 document.getElementById('id');
 ```
+or
 
-<br>
-or<br>
+```javascript
 document.querySelector('#id');
+```
+
 <h3>By tag name:</h3>
 document.getElementByTagNane('id'); 
 or 
