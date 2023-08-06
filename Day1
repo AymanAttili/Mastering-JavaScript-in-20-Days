@@ -1,5 +1,5 @@
 ////////// Finding elements
-#// By id:#
+# // By id:
 document.getElementById('id'); 
 or 
 document.querySelector('#id');
