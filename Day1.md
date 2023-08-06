@@ -19,7 +19,7 @@ or
 document.querySelector('#id'); //returns one element.
 ```
 
-<h3>B name:</h3>
+<h3>By name:</h3>
 
 ```javascript
 document.getElementsByName('h1'); //returns an HTMLCollection.
