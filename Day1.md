@@ -1,5 +1,5 @@
 <h1>Finding elements</h1>
-# By id 
+<h3>By id:</h3>
 document.getElementById('id'); 
 or 
 document.querySelector('#id');
