@@ -48,6 +48,22 @@ or
 ```javascript
 document.querySelectorall('.class'); //returns a nodeList.
 ```
+
+<hr>
+<h2>Changing the Web Page</h2>
+<h3>Change the textContent</h3>
+
+```javascript
+document.querySelector('#id').textContent = 'Hi hhhhhhhhhhhhhhhhhh';
+```
+
+<h3>Add something to the textContent</h3>
+
+```javascript
+document.querySelector('#id').textContent.append('@gmail.com');
+```
+
+
 <hr>
 <h2>Useful link if i forgot any thing in web development:</h2>
 
