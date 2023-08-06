@@ -13,12 +13,16 @@ document.querySelector('#id');
 ```
 
 <h3>By tag name:</h3>
+
+```javascript
 document.getElementByTagNane('id'); 
+```
 or 
+```javascript
 document.querySelectorall('h1');
+```
+
 
 
 ```javascript
-var s = "JavaScript syntax highlighting";
-alert(s);
 ```
