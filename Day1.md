@@ -11,10 +11,20 @@ or
 document.querySelector('#id'); //returns one element.
 ```
 
+<h3>B name:</h3>
+
+```javascript
+document.getElementsByName('h1'); //returns an HTMLCollection.
+```
+or 
+```javascript
+document.querySelectorall('h1'); //returns a nodeList.
+```
+
 <h3>By tag name:</h3>
 
 ```javascript
-document.getElementsByTagNane('h1'); //returns an HTMLCollection.
+document.getElementsByTagName('h1'); //returns an HTMLCollection.
 ```
 or 
 ```javascript
