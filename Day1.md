@@ -11,3 +11,9 @@ document.querySelector('#id');
 document.getElementByTagNane('id'); 
 or 
 document.querySelectorall('h1');
+
+
+```javascript
+var s = "JavaScript syntax highlighting";
+alert(s);
+```
