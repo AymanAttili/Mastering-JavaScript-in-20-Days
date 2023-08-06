@@ -7,7 +7,6 @@
 document.getElementById('id');
 ```
 or
-
 ```javascript
 document.querySelector('#id');
 ```
@@ -15,14 +14,19 @@ document.querySelector('#id');
 <h3>By tag name:</h3>
 
 ```javascript
-document.getElementByTagNane('id'); 
+document.getElementsByTagNane('h1'); 
 ```
 or 
 ```javascript
 document.querySelectorall('h1');
 ```
 
-
+<h3>By class name:</h3>
 
 ```javascript
+document.getElementsByClassNane('class'); 
+```
+or 
+```javascript
+document.querySelectorall('.class');
 ```
