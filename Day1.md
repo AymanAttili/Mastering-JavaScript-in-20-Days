@@ -1,6 +1,6 @@
 <h1>Day1</h1>
 <hr>
-<h2>* finding elements</h2>
+<h2>Finding elements</h2>
 <h3>By id:</h3>
 
 ```javascript
