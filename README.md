@@ -17,6 +17,7 @@ In this challenge, you will enhance your JavaScript skills and knowledge. Each d
 
 ## Coding Challenges
  - [First Challenge](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-algorithm-scripting/convert-celsius-to-fahrenheit)
+ - [Second Challenge](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-algorithm-scripting/reverse-a-string)
 
 
 ## Daily Learning Process
