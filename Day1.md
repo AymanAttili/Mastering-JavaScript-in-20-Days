@@ -31,5 +31,5 @@ or
 document.querySelectorall('.class'); //returns a nodeList
 ```
 <hr>
-<h2>Useful link</h2>
-[MDN](https://developer.mozilla.org/en-US/)https://developer.mozilla.org/en-US)
+<h2>Useful link if i forgot any thing in web development:/h2>
+[MDN]:(https://developer.mozilla.org/en-US/)https://developer.mozilla.org/en-US)
