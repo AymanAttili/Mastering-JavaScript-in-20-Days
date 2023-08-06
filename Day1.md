@@ -32,4 +32,5 @@ document.querySelectorall('.class'); //returns a nodeList
 ```
 <hr>
 <h2>Useful link if i forgot any thing in web development:</h2>
-[ffff](https://developer.mozilla.org/en-US/)https://developer.mozilla.org/en-US/
+
+[MDN (Mozilla Developer Network)](https://developer.mozilla.org/en-US/)https://developer.mozilla.org/en-US/
