@@ -2,9 +2,12 @@
 <hr>
 <h2>-finding elements</h2>
 <h3>By id:</h3>
+
 ```javascript
 document.getElementById('id');
-```<br>
+```
+
+<br>
 or<br>
 document.querySelector('#id');
 <h3>By tag name:</h3>
