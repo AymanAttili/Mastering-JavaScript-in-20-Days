@@ -1,1 +1,5 @@
-
+////////// Finding elements
+#// By id:#
+document.getElementById('id'); 
+or 
+document.querySelector('#id');
