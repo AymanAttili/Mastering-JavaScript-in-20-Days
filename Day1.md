@@ -1,4 +1,6 @@
-<h1>Finding elements</h1>
+<h1>Day1</h1>
+
+<h2>Finding elements</h2>
 <h3>By id:</h3>
 document.getElementById('id'); 
 or 
