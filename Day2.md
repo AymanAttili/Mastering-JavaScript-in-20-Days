@@ -1,6 +1,6 @@
 <h1>Day 2</h1>
 
-<h2>If i wanna know the data type of some value I can use:</h2>
+<h2>If I wanna know the data type of some value I can use:</h2>
 
 ```javascript
 typeof value;
@@ -8,11 +8,11 @@ typeof value;
 
 <hr>
 
-<h2>Data Types:</h2>
+<h1>Data Types:</h1>
 
-<h3>Primitive data types:</h3>
+<h2>Primitive data types:</h2>
 
-<h4>String</h4>
+<h3>String</h3>
 Is a set of characters.
 represented by these:
 
@@ -52,7 +52,7 @@ str.indexOf(str2); //where str2 is a character or a string.
 // if str2 doesn't exist in str it will return -1.
 ```
 
-- To chech if a substring is is included in a string:
+- To check if a substring is is included in a string:
 
 ```javascript
 str.includes(str2); //where str2 is the substring.
@@ -73,7 +73,7 @@ str.toLowerCase();
 str.toUpperCase();
 ```
 
-<h4>Number</h4>
+<h3>Number</h3>
 
 all of these are numbers:
 
@@ -85,16 +85,16 @@ all of these are numbers:
 Infinity
 ```
 
-<h4>boolean</h4>
+<h3>boolean</h3>
 
 ```javascript
 true
 false
 ```
 
-<h4>undefined</h4>
+<h3>undefined</h3>
 It represents the accidental nothing.
 
-<h4>null</h4>
+<h3>null</h3>
 It represents the deliberate nothing.
 It is an object.
