@@ -36,7 +36,7 @@ If I wanna connect to strings together:
 str1 + str2;
 ```
 
-String functions:
+<b>String functions:</b>
 
 - To find the length of a string use this:
 
