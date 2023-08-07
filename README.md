@@ -40,4 +40,5 @@ In this challenge, you will enhance your JavaScript skills and knowledge. Each d
 - Celebrate your achievements and reflect on your growth throughout the challenge.
 
 ## Folder Structure
--  
+-  [Day1](https://github.com/AymanAttili/Mastering-JavaScript-in-20-Days/blob/main/Day1.md)
+-  [Day2](https://github.com/AymanAttili/Mastering-JavaScript-in-20-Days/blob/main/Day2.md)
