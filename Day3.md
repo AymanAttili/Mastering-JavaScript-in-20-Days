@@ -96,7 +96,7 @@ This declares and assigns a 'constant', so that its value cannot be change.
 const X = 'Hello';
 ```
 
-<h3><b>Variables point to Values</b></h3>
+-----<h3><b>Variables point to Values not contain it</b></h3>-----
 
 <h3>Statements VS. Expressions:</h3>
 - An expression 'asks' JS for a value.
