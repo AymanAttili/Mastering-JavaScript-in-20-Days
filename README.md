@@ -26,8 +26,7 @@ In this challenge, you will enhance your JavaScript skills and knowledge. Each d
 
  - [Third Challenge](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/object-oriented-programming/use-dot-notation-to-access-the-properties-of-an-object)
 
-   Solution.
-
+   [Solution.](https://ideone.com/KG5tKu)
  - Fourth Challenge
 
 ## Daily Learning Process
