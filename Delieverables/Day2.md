@@ -17,7 +17,7 @@ console.log(!!d);
 
 What will be the output of each console.log statement? **_You MUST explain WHY_**.
 
-console.log(a == b); ==> true, because 0 equals "0" even if their data type differs (double equal ignores data types).
+console.log(a == b); ==> *true, because 0 equals "0" even if their data type differs (double equal ignores data types).*
 
 console.log(b === c); ==> false, even if "0" equals false, but their data types differs.
 
