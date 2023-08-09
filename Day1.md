@@ -66,7 +66,7 @@ document.querySelector('#id').textContent.append('@gmail.com');
 
 <hr>
 
-**[Delieverables](https://github.com/AymanAttili/Mastering-JavaScript-in-20-Days/blob/main/Delieverables/Day1.md)**
+## [Delieverables](https://github.com/AymanAttili/Mastering-JavaScript-in-20-Days/blob/main/Delieverables/Day1.md)
 
 <hr>
 <h2>Useful link if i forgot any thing in web development:</h2>
