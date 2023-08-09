@@ -98,3 +98,6 @@ It represents the accidental nothing.
 <h3>null</h3>
 It represents the deliberate nothing.
 It is an object.
+
+<hr>
+## [Derievables.](https://github.com/AymanAttili/Mastering-JavaScript-in-20-Days/blob/main/Delieverables/Day2.md)https://github.com/AymanAttili/Mastering-JavaScript-in-20-Days/blob/main/Delieverables/Day2.md
