@@ -186,9 +186,13 @@ let mixArray = [ 2, 'Ayman', {X: 3, Y:4}, null, false];
 
 let arr = [1, 2, 3]
 arr.push(4); //arr => [1, 2, 3, 4]. it puts the element at the end of array.
+
 arr.push([5, 6, 7]); // arr => [1, 2, 3, 4, [5, 6, 7]].
+
 arr.pop(); // arr => [1, 2, 3, 4], it deletes the element at the end of array.
+
 arr.shift(0); // arr => [0, 1, 2, 3, 4], it puts the element t the beginning of array.
+
 arr.unshift(); // arr => [1, 2, 3, 4], it deletes the element t the beginning of array.
 ```
 
@@ -210,7 +214,7 @@ numbers2; // [1, 2, 3].
 ///
 
 const numbers3 = [1, 2, 3];
-numbers[1] = 5;// numbers3 => [1, 5, 3].
+numbers[1] = 5;// numbers3 => [1, 5, 3
 //Why?? because const prevent to change the item that it points to, not the value of it;
 
 ///
@@ -220,6 +224,7 @@ let arr2 = arr1;
 arr2.push(4);
 
 arr2; // this will print [1, 2, 3, 4]
+
 arr1; // this will print [1, 2, 3, 4] also.
 //Why? because when we declare arr2 we points it to an array object, so any change on arr2 will change the array that ut poibts to -the same array that arr1 points to-.
 ```
