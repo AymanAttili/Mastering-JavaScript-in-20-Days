@@ -110,3 +110,48 @@ arr1; // this will print [1, 2, 3, 4] also.
 ```
 - <b>If your value won't change, use const.</b>
 
+<hr>
+
+<h2>Objects</h2>
+
+- It can be declared like this:
+
+```javascript
+let myObj = {
+    name: 'Ayman Attili',
+    age: 21,
+    position: 'QA Automation Engineer'
+};
+```
+
+- Objects collect multiple values together to describe more complex data.
+- Similar to how we can point at different values using variables in our code.
+- Objects let us point at related values using *properties* in the object.
+- I can get the properties values, use them and modify:
+
+  ```javascript
+  // get
+  myObj.name;
+  myObj.age;
+
+  // use
+  myObj.position.startsWith('QA');
+  let birthdate = 2023 - myObj.age;
+
+  // modify
+  myObj.age = 22;
+  myObj.isGraduated = false; // this will add a new property to myObj.
+
+  // another way to access properties
+  myObj['age'];
+  ```
+
+<h3>Objects methods:</h3>
+
+```javascript
+
+
+myObj.freeze(); // this will make my object immutable.
+
+  
+  
