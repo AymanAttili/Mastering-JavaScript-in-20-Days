@@ -15,19 +15,7 @@ In this challenge, you will enhance your JavaScript skills and knowledge. Each d
  - [JavaScript: The Hard Parts, v2](https://frontendmasters.com/courses/javascript-hard-parts-v2/)
  - [Deep JavaScript Foundations, v3](https://frontendmasters.com/courses/deep-javascript-v3/)
 
-## Coding Challenges
- - [First Challenge](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/compound-assignment-with-augmented-multiplication).
-   
-   [Solution.](https://ideone.com/9KiQqz)
-   
- - [Second Challenge](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/concatenating-strings-with-the-plus-equals-operator).
 
-   [Solution.](https://ideone.com/ZKokru)
-
- - [Third Challenge](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/object-oriented-programming/use-dot-notation-to-access-the-properties-of-an-object)
-
-   [Solution.](https://ideone.com/KG5tKu)
- - Fourth Challenge
 
 ## Daily Learning Process
 1. Each day, you will watch 90 minutes of the assigned courses listed above.
