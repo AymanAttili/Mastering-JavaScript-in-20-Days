@@ -1,4 +1,4 @@
-# day2 delieverables:
+# Day2 delieverables:
 
 ### QUESTION #1
 
