@@ -53,6 +53,9 @@ let result = 5 + 2 * 3 - 1;
 
 What will be the output of this expression? **_You MUST explain the steps of evaluation taken by JS_**.
 
+- Solution:
+
+  ***result = 5 + 2 * 3 - 1 ==> 5 + (2 * 3) -1 ==> 5 + 6 - 1 ==> 10.***
 -------------------------------------------------------------------
 
 ### QUESTION #4:
@@ -67,6 +70,12 @@ console.log(x === y);
 ```
 What will be the output of each `console.log` statement? **_You MUST explain WHY_**.
 
+
+- Solution:
+
+  console.log(x == y); ==> ***true, because 10 equals "10" even if their data types differs (double equal ignores data types).***
+  
+  console.log(x === y); ==> ***false, even if 10 equals "10" but their data types differs (triple equal checks data types).***
 -------------------------------------------------------------------
 
 ### QUESTION #5:
