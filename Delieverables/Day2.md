@@ -14,14 +14,15 @@ console.log(a == b);
 console.log(b === c);
 console.log(!!d);
 ```
-
 What will be the output of each console.log statement? **_You MUST explain WHY_**.
 
-console.log(a == b); ==> ***true, because 0 equals "0" even if their data type differs (double equal ignores data types).***
+- Solution:
+  
+  console.log(a == b); ==> ***true, because 0 equals "0" even if their data type differs (double equal ignores data types).***
 
-console.log(b === c); ==> false, even if "0" equals false, but their data types differs.
+  console.log(b === c); ==> ***false, even if "0" equals false, but their data types differs.***
 
-console.log(!!d); ==> true, because d is a string and any non-empty string has a value of 'true', !!true ==> true.
+  console.log(!!d); ==> ***true, because d is a string and any non-empty string has a value of 'true', !!true ==> true.***
 
 -------------------------------------------------------------------
 
@@ -35,6 +36,10 @@ console.log(4 + 5 * "7");
 ```
 
 What will be the output of this expression? **_You MUST explain the steps of evaluation taken by JS_**.
+
+- Solution:
+
+  console.log(4 + 5 * "7"); ==> ***this will print 39, because multiplication has the most priority ==> 4 + (5 * "7"), and when we multiply a number to a string, the string parse to number ==> 4 + 35 ==> 39***
 
 -------------------------------------------------------------------
 
