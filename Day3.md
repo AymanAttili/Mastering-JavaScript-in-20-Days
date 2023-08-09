@@ -1,4 +1,4 @@
-![image](https://github.com/AymanAttili/Mastering-JavaScript-in-20-Days/assets/96499629/af8fa15b-5305-4998-b249-275f669f52d3)<h1>Day 3</h1>
+<h1>Day 3</h1>
 
 <h2>Operators:</h2>
 
