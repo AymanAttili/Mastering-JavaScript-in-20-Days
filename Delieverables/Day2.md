@@ -90,3 +90,7 @@ console.log(result);
 ```
 
 What is the value of result? **_You MUST explain the steps of evaluation taken by JS_**
+
+- Solution:
+
+  ***result = (num > 10 && isPositive) || num < 0 ==> ((15 > 10) && true) || (15 < 0) ==> (true && true) || false ==> true.***
