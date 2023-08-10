@@ -19,3 +19,11 @@
 - [Challenge 5.](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/understanding-undefined-value-returned-from-a-function)
 
   [Solution.](https://ideone.com/UFyv1U)
+
+- [Challenge 6.](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/return-a-value-from-a-function-with-return)
+
+  ```javascript
+  function timesFive(x){
+    return x*5;
+  }
+  ```
