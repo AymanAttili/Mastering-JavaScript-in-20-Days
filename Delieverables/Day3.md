@@ -20,9 +20,9 @@
   let sentence = ['learning',...fragment, 'is', 'fun']; // Change this line
   return sentence;
   }
+  console.log(spreadOut());
   ```
 
-console.log(spreadOut());
 
 - [Challenge 3.](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/profile-lookup)
 
