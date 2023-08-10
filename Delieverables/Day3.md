@@ -15,3 +15,7 @@
 - [Challenge 4.](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/write-reusable-javascript-with-functions)
 
   [Solution.](https://ideone.com/Dggeyb)
+
+- [Challenge 5.](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/understanding-undefined-value-returned-from-a-function)
+
+  [Solution.](https://ideone.com/UFyv1U)
