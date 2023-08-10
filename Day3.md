@@ -241,3 +241,7 @@ const hello = "hello";
 console.log = (hello.length) ;
 const yello = hello.toUpperCase() 
 ```
+
+<hr>
+
+##[ Delieverables.](https://github.com/AymanAttili/Mastering-JavaScript-in-20-Days/blob/main/Delieverables/Day3.md)
