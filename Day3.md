@@ -147,11 +147,97 @@ let myObj = {
   ```
 
 <h3>Objects methods:</h3>
+- Objects can hava a function as a property:
 
 ```javascript
+let myObj = {
+    name: 'Ayman Attili',
+    age: 21,
+    position: 'QA Automation Engineer'
+    talk: function(){
+            console.log('Hello!');
+          }
+};
+```
 
+- I can access other properties on the object using 'this':
 
+  ```javascript
+  let myObj = {
+    name: 'Ayman Attili',
+    talk: function(){
+            console.log('Hello my name is ', this.name);
+          }
+  };
+  ```
+
+- Objects have a built-in methods like:
+
+```javascript
 myObj.freeze(); // this will make my object immutable.
 
-  
-  
+// array methods
+arr.push(1);
+arr.unshift();
+```
+
+<hr>
+- We can declare objects inside an object (nested objects);
+
+```javascript
+const menu = {
+    lunch: {
+        appetizer: "salad",
+        main: "spaghetti ",
+        dessert: "tiramisu"
+    },
+    dinner: {
+        appetizer: "samosa",
+        main: "saag paneer",
+        dessert: "gulab jamun"
+    }
+};
+const tiramisu = menu.lunch.dessert;
+
+// arrays are also objects
+
+const pupil = {
+    name: 'Ahmad',
+    languages: ['Arabic', 'English']
+};
+```
+
+<h3>Built-in objects</h3>
+
+- 'document' is an object we deal with earlier:
+
+```javascript
+document. title = "Tic Tac Toe" ;
+document.querySe1ector("h2").append(" and love") ;
+```
+
+- console is an object too.
+
+```javascript
+console.log("hello coder!");
+console.log(document.querySe1ector("hl").textContent) ;
+console.warn(something seems iffy");
+console.error("oh no, it broke!");
+console.clear();
+```
+
+- Math object:
+
+```javascript
+let randomNumber = Math.random();
+const pi = Math.PI;
+const five = Math.abs(—5);
+```
+
+- Strings are primitive values (not objects), but JS automatically wraps them in String objects
+
+```javascript
+const hello = "hello";
+console.log = (hello.length) ;
+const yello = hello.toUpperCase() 
+```
