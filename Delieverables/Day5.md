@@ -13,6 +13,12 @@ checkSign(10);
 - [Challenge 2.](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/functional-programming/use-the-map-method-to-extract-data-from-an-array)
 
 ```javascript
+const ratings = watchList.map(s=> (
+  {
+    title: s.Title,
+    rating: s.imdbRating
+  })
+);
 
 ```
 
