@@ -19,3 +19,12 @@ const ten = mulByFive(2);
 ```
 
 <h3>Parameters & Arguments</h3>
+- Some functions need more than one value to work:
+
+```javascript
+function add(x, y){ // x, y are the function *parameters*.
+    return x + y;
+}
+
+add(4, 7); // 4, 7 are the function *arguments*.
+```
