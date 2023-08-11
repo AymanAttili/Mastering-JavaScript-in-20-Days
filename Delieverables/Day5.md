@@ -25,7 +25,12 @@ const ratings = watchList.map(s=> (
 - [Challenge 3.](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/functional-programming/use-the-filter-method-to-extract-data-from-an-array)
 
 ```javascript
-
+const filteredList = watchList.map(s => (
+  {
+    title: s.Title,
+    rating: s.imdbRating
+  }
+)).filter(s => Number(s.rating) >= 8);
 ```
 
 - [Challenge 4.](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/golf-code)
