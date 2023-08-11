@@ -167,4 +167,8 @@ document.addEventListener("click" , (event) => {
 
 <hr>
 
+## [JS Quiz project](https://github.com/AymanAttili/Mastering-JavaScript-in-20-Days/blob/main/Delieverables/JSQuiz.html)
+
+<hr>
+
 ## [Delieverables.](https://github.com/AymanAttili/Mastering-JavaScript-in-20-Days/blob/main/Delieverables/Day4.md)
