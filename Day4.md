@@ -163,3 +163,8 @@ document.addEventListener("click" , (event) => {
     * "mouseover"
     * "mouseout"
     ...and lots more!
+
+
+<hr>
+
+## [Delieverables.](https://github.com/AymanAttili/Mastering-JavaScript-in-20-Days/blob/main/Delieverables/Day4.md)
