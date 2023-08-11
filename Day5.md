@@ -130,5 +130,3 @@ const burnBook = [];
 burnBooks.push(newBurns);
 burnBooks.shift(oldBurns);
 ```
-
-## [JS Quiz project](https://github.com/AymanAttili/Mastering-JavaScript-in-20-Days/blob/main/Delieverables/JSQuiz.html)
