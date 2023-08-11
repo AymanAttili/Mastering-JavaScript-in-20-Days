@@ -130,3 +130,5 @@ const burnBook = [];
 burnBooks.push(newBurns);
 burnBooks.shift(oldBurns);
 ```
+
+## [Delieverables.](https://github.com/AymanAttili/Mastering-JavaScript-in-20-Days/blob/main/Delieverables/Day5.md)
