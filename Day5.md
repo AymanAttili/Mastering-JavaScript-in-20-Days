@@ -131,4 +131,29 @@ burnBooks.push(newBurns);
 burnBooks.shift(oldBurns);
 ```
 
+<h4>while loops</h4>
+- let us run a chunk of code over & over if a (condition) is true.
+
+```javascript
+let fiveRandomNumbers = [];
+while (fiveRandomNumbers.length < 5) {
+    fiveRandomNumbers.push(Math.random()) ;
+}
+```
+
+- Dont use **while(true)**.
+
+<h2>(A)synchronus code</h2>
+
+<h3>setTimeOut()</h3>
+- when we give JS a task that takes a while, it doesn't stop and wait.
+- setTimeOut() adds the slow task to a "TODO list" and keeps on running our program.
+- The task runs some time later, "asynchronously".
+
+```javascript
+console.log("This will print first");
+setTimeout(() => console.log("This will print third"), 1000);
+console.log("This will print second");
+```
+
 ## [Delieverables.](https://github.com/AymanAttili/Mastering-JavaScript-in-20-Days/blob/main/Delieverables/Day5.md)
