@@ -67,12 +67,12 @@ async function fetchResponse(url) {
 ```javascript
     // myModule.js
     const veryUsefu1Function = () => "I came from a module" ;
-    export { veryUsefu1Function ;
+    export { veryUsefu1Function };
  ```
 ```javascript
     // otherModu1e.js
-    import { veryUsefu1Function from ./myModu1e. js '
-    veryUsefu1Function( ) ;
+    import { veryUsefu1Function } from './myModu1e.js'
+    veryUsefu1Function() ;
 ```
   
   
