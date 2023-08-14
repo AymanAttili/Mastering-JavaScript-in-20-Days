@@ -52,3 +52,6 @@ async function fetchResponse(url) {
 ```
 
 - javascript is a 'Single-threaded' language.
+
+
+## [Delieverables.](https://github.com/AymanAttili/Mastering-JavaScript-in-20-Days/blob/main/Delieverables/Day6.md)
