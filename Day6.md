@@ -60,15 +60,15 @@ async function fetchResponse(url) {
 
 - Module scope
   - Another difference is that modules create their own scopeز
-  - export lets us expose variables from our module's scope to the outside worldز
+  - export lets us expose variables from our module's scope to the outside world.
+  - import lets us use an exposed variable froman other module.
+
 
 ```javascript
     // myModule.js
     const veryUsefu1Function = () => "I came from a module" ;
     export { veryUsefu1Function ;
  ```
-  - import lets us use an exposed variable froman other module.
-
 ```javascript
     // otherModu1e.js
     import { veryUsefu1Function from ./myModu1e. js '
