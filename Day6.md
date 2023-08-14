@@ -53,5 +53,27 @@ async function fetchResponse(url) {
 
 - javascript is a 'Single-threaded' language.
 
+<h2>Modules</h2>
 
+- Modules let us split big codepases across multiple files.
+- JS modules work differently from JS scripts.
+
+- Module scope
+  - Another difference is that modules create their own scopeز
+  - export lets us expose variables from our module's scope to the outside worldز
+
+        ```javascript
+            // myModule.js
+            const veryUsefu1Function = () => "I came from a module" ;
+            export { veryUsefu1Function ;
+        ```
+  - import lets us use an exposed variable froman other module.
+
+        ```javascript
+            // otherModu1e.js
+            import { veryUsefu1Function from ./myModu1e. js '
+            veryUsefu1Function( ) ;
+        ```
+  
+  
 ## [Delieverables.](https://github.com/AymanAttili/Mastering-JavaScript-in-20-Days/blob/main/Delieverables/Day6.md)
