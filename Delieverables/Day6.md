@@ -26,11 +26,12 @@ displays a list of characters.
 
 #### [Click to see the attached starter project](https://github.com/orjwan-alrajaby/gsg-QA-Nablus-training-2023/tree/main/learning-sprint-1/week1%20-%20javascript-from-first-steps-to-professional/day%206/rick%26MortyStarter).
 
-
+<hr>
+<hr>
 Solution:
 
 
 ![image](https://github.com/AymanAttili/Mastering-JavaScript-in-20-Days/assets/96499629/2e6247d2-37af-408e-b564-417fafcc11e7)
 
-## [project files.](https://github.com/AymanAttili/Mastering-JavaScript-in-20-Days/tree/main/Delieverables/Rick%26mortyFetch)
+- ## [project files.](https://github.com/AymanAttili/Mastering-JavaScript-in-20-Days/tree/main/Delieverables/Rick%26mortyFetch)
 
