@@ -74,6 +74,12 @@ async function fetchResponse(url) {
     import { veryUsefu1Function } from './myModu1e.js'
     veryUsefu1Function() ;
 ```
-  
-  
+
+<hr>
+
+## [DoggosFetch.](https://github.com/AymanAttili/Mastering-JavaScript-in-20-Days/blob/main/Delieverables/DoggosFetch.html)
+
+<hr>
+
 ## [Delieverables.](https://github.com/AymanAttili/Mastering-JavaScript-in-20-Days/blob/main/Delieverables/Day6.md)
+
