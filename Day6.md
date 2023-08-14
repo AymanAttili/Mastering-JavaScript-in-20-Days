@@ -1,6 +1,7 @@
 <h1>Day 6</h1>
 
 <h2>Destructuring</h2>
+
 - Destructuring is a fancy way of declaring multiple variables at once.
 - By "extracting" values from an object with their property names.
 
@@ -39,3 +40,15 @@ const [,, Mohsen] = spices;
 const [babySpices, ...adultSpices] = spices;
 // adultSpices = array contains the remaining values.
 ```
+
+<h2>Async Functions</h2>
+- To use 'await' we have to declare the function as a 'async'.
+
+```javascript
+async function fetchResponse(url) {
+    const response = await fetch(url);
+    return response;
+}
+```
+
+- javascript is a 'Single-threaded' language.
