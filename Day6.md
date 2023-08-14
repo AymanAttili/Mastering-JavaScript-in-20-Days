@@ -25,4 +25,17 @@ let {nickname} = spices[0];
 const [baby, 3llawi, Mohsen] = spices;
 ```
 
-- We can ignore the valuesin the array we don't need
+- We can ignore the valuesin the array we don't need, and we can use commas to skip values.
+
+```javascript
+const [emma, 3llawi] = spices;
+//
+const [,, Mohsen] = spices;
+```
+
+- We can use ... to collect remaining values.
+
+```javascript
+const [babySpices, ...adultSpices] = spices;
+// adultSpices = array contains the remaining values.
+```
