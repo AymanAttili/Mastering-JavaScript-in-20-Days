@@ -1,4 +1,4 @@
-<h1>Day 8</h1>
+![image](https://github.com/AymanAttili/Mastering-JavaScript-in-20-Days/assets/96499629/2e9608c9-a906-452a-a7b1-e2113fad15da)<h1>Day 8</h1>
 
 <h2>Closure</h2>
 
@@ -53,3 +53,37 @@ myNewFunction();
 
 - And every time we use the function, if the required data isn't in its scope, it will return to (backpack -the data it takes with him previously-)
 ![image](https://github.com/AymanAttili/Mastering-JavaScript-in-20-Days/assets/96499629/4a6d1e17-b6b6-4d4b-85db-f382ec413b39)
+
+- This backpack is a hidden attribute for the function, called {{scope}}.
+- This means that every function call will remember what the previous function calls do.
+- **Not all data will store on {{scope}}, just the data that the function ever makes reference to**.
+
+<h3>What can we call backpack?</h3>
+- Closed over 'Variable Environment' (C.O.V.E.).
+- Persistent Lexical Scope Referenced Data (P.L.S.R.D.).
+- 'Backpack'. 
+- 'Closure'.
+
+The 'backpack' (or •closure') of live data is attached incrementCounter (then to myNewFunction) through a hidden property known as [(scope)) which persists when the inner function is returned out. 
+
+
+### **Individual backpacks**
+If we run 'outer' again and store the returned 'incrementCounter' function definition in 'anotherFunction', this new incrementCounter function was created in a new execution context and therefore has a brand new independent backpack.
+
+```javascript
+function outer(){
+    let counter = 0;
+    function incrementCounter(){ counter++; }
+    counter;
+    return incrementCounter;
+}
+
+const myNewFunction = outer();
+myNewFunction();
+myNewFunction();
+
+// another function runs outer()
+const anotherFunction = outer();
+anotherFunction();
+anotherFunction();
+```
