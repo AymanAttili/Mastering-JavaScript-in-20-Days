@@ -1,4 +1,4 @@
-![image](https://github.com/AymanAttili/Mastering-JavaScript-in-20-Days/assets/96499629/2e9608c9-a906-452a-a7b1-e2113fad15da)<h1>Day 8</h1>
+<h1>Day 8</h1>
 
 <h2>Closure</h2>
 
@@ -59,6 +59,7 @@ myNewFunction();
 - **Not all data will store on {{scope}}, just the data that the function ever makes reference to**.
 
 <h3>What can we call backpack?</h3>
+
 - Closed over 'Variable Environment' (C.O.V.E.).
 - Persistent Lexical Scope Referenced Data (P.L.S.R.D.).
 - 'Backpack'. 
