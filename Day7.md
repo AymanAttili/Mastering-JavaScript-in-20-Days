@@ -113,6 +113,8 @@ Just a term to describe these functions - any function that does it we call that
 **Codesmith & pro interview prep:** One of the most popular topics to test in interview both for Codesmith and mid/senior level job interviews.
 **Asynchronous JavaScript:** Callbacks are a core aspect of async JavaScript. and are under-the-hood of promises, async/await.
 
+<hr>
+
 <h3>Arrow function</h3>
 
 ```javascript
@@ -141,6 +143,7 @@ const multiply6 = input => input * 6;
 - But at least for our purposes here they are •syntactic sugar' - we'll see their full effects later.
 - Understanding how they're working under-the-hood is vital to avoid confusion.
 
+<hr>
 
 <h3>Pair programming</h3>
 
