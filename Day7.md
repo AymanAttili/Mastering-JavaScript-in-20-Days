@@ -140,3 +140,8 @@ const multiply6 = input => input * 6;
 - Improve immediate legibility of the code
 - But at least for our purposes here they are •syntactic sugar' - we'll see their full effects later.
 - Understanding how they're working under-the-hood is vital to avoid confusion.
+
+
+<h3>Pair programming</h3>
+
+![image](https://github.com/AymanAttili/Mastering-JavaScript-in-20-Days/assets/96499629/525b17fe-b621-4cde-a4c7-4568e7b3c1b0)
