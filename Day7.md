@@ -151,6 +151,6 @@ const multiply6 = input => input * 6;
 
 ![image](https://github.com/AymanAttili/Mastering-JavaScript-in-20-Days/assets/96499629/84b28e1e-b88d-4be2-8abc-487d9d5d7228)
 
-<hr?
+<hr>
 
 ## [Delieverables.](https://github.com/AymanAttili/Mastering-JavaScript-in-20-Days/blob/main/Delieverables/Day7.md)
