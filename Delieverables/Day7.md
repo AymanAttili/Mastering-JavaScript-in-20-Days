@@ -44,7 +44,12 @@ The final result should be returned as a Promise.
 
 - Solution:
 ```javascript
-
+const mapAsync = async (array, callBack) => {
+    const newArray = array.map(async element => {
+        element = await callBack(element);
+    })
+    return newArray;
+}
 ```
 -------------------------------------------------------------------
 ## Question 2: Call Stack and Recursion
