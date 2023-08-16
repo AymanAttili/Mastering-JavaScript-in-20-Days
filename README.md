@@ -39,3 +39,4 @@ In this challenge, you will enhance your JavaScript skills and knowledge. Each d
 -  [Day4](https://github.com/AymanAttili/Mastering-JavaScript-in-20-Days/blob/main/Day4.md).
 -  [Day5](https://github.com/AymanAttili/Mastering-JavaScript-in-20-Days/blob/main/Day5.md).
 -  [Day6](https://github.com/AymanAttili/Mastering-JavaScript-in-20-Days/blob/main/Day6.md).
+-  [Day7](https://github.com/AymanAttili/Mastering-JavaScript-in-20-Days/blob/main/Day7.md).
