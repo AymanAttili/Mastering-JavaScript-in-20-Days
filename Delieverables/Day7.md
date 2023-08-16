@@ -45,8 +45,9 @@ The final result should be returned as a Promise.
 - Solution:
 ```javascript
 const mapAsync = async (array, callBack) => {
-    const newArray = array.map(async element => {
-        element = await callBack(element);
+    let newArray = [];
+    array.map(async element => {
+        newArray.push(await callBack(element));
     })
     return newArray;
 }
