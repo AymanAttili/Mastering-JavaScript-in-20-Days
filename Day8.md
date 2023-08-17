@@ -121,7 +121,7 @@ We need to add some new components:
 
 - Web Browser APIs/Node background APIs.
 
-![image](https://github.com/AymanAttili/Mastering-JavaScript-in-20-Days/assets/96499629/e37cff84-c4a0-41be-8d5b-2283c4e5150f)
+![image](https://github.com/AymanAttili/Mastering-JavaScript-in-20-Days/assets/96499629/a9d02604-28d5-432a-a289-959e4b6d4ed9)
 
 - Promises.
 - Event loop, Callback/Task queue and micro task queue.
@@ -131,7 +131,20 @@ We need to add some new components:
 
 
 ```javascript
+function printHello(){ console.log('Hello'); }
 
+setTimeout(printHello, 1000);
+
+console.log('me first'); // this will print first.
+
+// another example
+
+function printHello(){ console.log('Hello'); }
+
+
+setTimeout(printHello, 0);
+
+console.log('me first'); // this also will print first.
 ```
 <hr>
 
