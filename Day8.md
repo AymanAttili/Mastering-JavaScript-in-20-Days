@@ -99,4 +99,37 @@ anotherFunction();
 
 <hr>
 
+<h2>Asyncronous JS</h2>
+
+- Promises - the most signficant ES6 feature.
+- Asynchronicity - the feature that makes dynamic web applications possible.
+- The event loop - JavaScript's triage.
+- Microtask queue, Callback queue and Web Browser features (APIs).
+
+* JavaScript is:
+    - Single threaded (one command runs at a time).
+    - Synchronously executed (each line is run in order the code appears).
+ 
+## JavaScript is not enough - We need new pieces (some of which aren't JavaScript at all)
+
+Our core JavaScript engine has 3 main parts:
+    - Thread of execution.
+    - Memory/variable environment.
+    - Call stack.
+
+We need to add some new components:
+    - Web Browser APIs/Node background APIs.
+    ![image](https://github.com/AymanAttili/Mastering-JavaScript-in-20-Days/assets/96499629/e37cff84-c4a0-41be-8d5b-2283c4e5150f)
+    - Promises.
+    - Event loop, Callback/Task queue and micro task queue.
+
+
+* ES5 solution: Introducing 'callback functions', and Web Browser APIs
+
+
+```javascript
+
+```
+<hr>
+
 ## [Delieverables.](https://github.com/AymanAttili/Mastering-JavaScript-in-20-Days/blob/main/Delieverables/Day8.md)
