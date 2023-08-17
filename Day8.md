@@ -118,10 +118,12 @@ Our core JavaScript engine has 3 main parts:
     - Call stack.
 
 We need to add some new components:
-    - Web Browser APIs/Node background APIs.
+
+- Web Browser APIs/Node background APIs.
     ![image](https://github.com/AymanAttili/Mastering-JavaScript-in-20-Days/assets/96499629/e37cff84-c4a0-41be-8d5b-2283c4e5150f)
-    - Promises.
-    - Event loop, Callback/Task queue and micro task queue.
+
+- Promises.
+- Event loop, Callback/Task queue and micro task queue.
 
 
 * ES5 solution: Introducing 'callback functions', and Web Browser APIs
