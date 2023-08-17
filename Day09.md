@@ -96,3 +96,7 @@ Benefits
 **However long it takes:** We cannot predict when our Browser feature's work will finish so we let JS handle automatically running the function on its completion.
 
 **Web applications:** Asynchronous JavaScript is the backbone of the modern web - letting us build fast •non-blocking• applications.
+
+<hr>
+
+## [Delieverables.](https://github.com/AymanAttili/Mastering-JavaScript-in-20-Days/blob/main/Delieverables/Day9.md)
