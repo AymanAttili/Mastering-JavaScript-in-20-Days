@@ -32,4 +32,4 @@ Promise objects will automatically trigger the attached function to run (with it
 
 
 ## Asynchronous means:
-Doing cose out of order from when you saw it.
+Doing code out of order from when you saw it.
