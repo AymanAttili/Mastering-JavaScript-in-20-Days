@@ -6,6 +6,19 @@
 Write a closure named createCounter that takes an initial value start and returns a function. 
 The returned function, when invoked, should increment the counter by 1 and return the updated value.
 
+- Solution:
+
+```javascript
+function createCounter(initial){
+    let counter = initial;
+    function incrementCounter(){
+        counter++;
+        return counter;
+    }
+
+    return incrementCounter;
+}
+```
 -------------------------------------------------------------------
 ## Question 2:
 
