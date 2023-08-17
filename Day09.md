@@ -29,3 +29,7 @@ Any code we want to run on the returned data must also be saved on the promise o
 Added using .then method to the hidden property •onFulfilment'.
 
 Promise objects will automatically trigger the attached function to run (with its input being the returned data).
+
+
+## Asynchronous means:
+Doing cose out of order from when you saw it.
