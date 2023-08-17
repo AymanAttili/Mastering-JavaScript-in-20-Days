@@ -141,11 +141,13 @@ console.log('me first'); // this will print first.
 
 function printHello(){ console.log('Hello'); }
 
-
 setTimeout(printHello, 0);
 
 console.log('me first'); // this also will print first.
 ```
+- The code above will excute like this:
+![image](https://github.com/AymanAttili/Mastering-JavaScript-in-20-Days/assets/96499629/dd747188-b788-4f2b-b09b-adfd1a12e55d)
+
 <hr>
 
 ## [Delieverables.](https://github.com/AymanAttili/Mastering-JavaScript-in-20-Days/blob/main/Delieverables/Day8.md)
