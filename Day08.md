@@ -164,7 +164,8 @@ console.log('me first'); // this also will print first.
 
 - Any callback function used in setTimeout() will be sent to callback queue, and they will never excute until the call stack will be empty.
 - The operation when JS takes functions from callback queue to call stack names: Event Loop.
-  
+
+
 ## ES5 Web Browser APIs with callback functions
 
 Problems:
