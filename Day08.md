@@ -146,8 +146,35 @@ setTimeout(printHello, 0);
 console.log('me first'); // this also will print first.
 ```
 - The code above will excute like this:
-
+  
 ![image](https://github.com/AymanAttili/Mastering-JavaScript-in-20-Days/assets/96499629/dd747188-b788-4f2b-b09b-adfd1a12e55d)
+
+
+**SetTimeout()**
+
+```javascript
+function printHello(){ console.log('Hello'); }
+function blockFor1Sec(){ // a code that takes 1sec to finish excuting}
+
+setTimeout(printHello, 0);
+
+blockFor1Sec();
+console.log('me first'); // this also will print first.
+```
+
+- Any callback function used in setTimeout() will be sent to callback queue, and they will never excute until the call stack will be empty.
+- The operation when JS takes functions from callback queue to call stack names: Event Loop.
+  
+## ES5 Web Browser APIs with callback functions
+
+Problems:
+
+- Our response data is only available in the callback function - Callback hell.
+- Maybe it feels a little Odd to think Of passing a function into another function only for it to run much later.
+
+Benefits
+
+- Super explicit once you understand how it works under-the-hood.
 
 <hr>
 
