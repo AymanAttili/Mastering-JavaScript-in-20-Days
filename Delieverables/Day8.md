@@ -25,14 +25,47 @@ function createCounter(initial){
 Write a closure named calculateAverage that takes an array of numbers, nums, and returns a function. 
 The returned function, when invoked, should calculate and return the average of the numbers in the array.
 
+- Solution
+```javascript
+function calculateAverage(nums){
+    return () => {
+        let sum=0;
+        nums.map(e => sum+=e)
+        return sum/nums.length;
+    }
+}
+
+```
 -------------------------------------------------------------------
 ## Question 3: 
 
 Write a closure named powerOf that takes a base number base and returns a function. 
 The returned function, when invoked with an exponent exp, should calculate and return the result of base raised to the power of exp.
 
+- Solution
+```javascript
+function powerOf(base){
+    return (exp) => {
+        return Math.pow(base,exp);
+    }
+}
+```
 -------------------------------------------------------------------
 ## Question 4: 
 
 Write a closure named compose that takes multiple functions as arguments and returns a new function. 
 The returned function should apply the provided functions in reverse order, passing the result of each function as an argument to the next function.
+
+- Solution
+```javascript
+function compose(...functions){
+    functions.reverse();
+    return (input) => functions.reduce((total, func) => func(total), input);
+}
+
+// or
+
+function compose(...functions){
+    return (input) => functions.reduceRight((total, func) => func(total), input);
+}
+```
