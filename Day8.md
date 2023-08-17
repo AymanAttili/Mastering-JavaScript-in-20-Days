@@ -39,7 +39,6 @@ const result = generatedFunc(3) ; // 6
 function outer(){
     let counter = 0;
     function incrementCounter(){ counter++; }
-    counter;
     return incrementCounter;
 }
 
@@ -75,7 +74,6 @@ If we run 'outer' again and store the returned 'incrementCounter' function defin
 function outer(){
     let counter = 0;
     function incrementCounter(){ counter++; }
-    counter;
     return incrementCounter;
 }
 
