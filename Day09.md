@@ -86,3 +86,13 @@ Benefits
 - Add the function to the Call stack (i.e. run the function) when:
     - Call stack is empty & all global code run (Have the Event Loop check this condition)
 - Prioritize functions in the microtask queue over the Callback queue
+
+<hr>
+
+<h3>Promises, Web APIs, the Callback & Microtask Queues and Event loop enable:</h3>
+
+**blocking applications:** This means we don't have to wait in the single thread and don't block further code from running.
+
+**However long it takes:** We cannot predict when our Browser feature's work will finish so we let JS handle automatically running the function on its completion.
+
+**Web applications:** Asynchronous JavaScript is the backbone of the modern web - letting us build fast •non-blocking• applications.
