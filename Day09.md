@@ -34,6 +34,7 @@ Promise objects will automatically trigger the attached function to run (with it
 ## Asynchronous means:
 Doing code out of order from when you saw it.
 
+<hr>
 
 ## Note: what happens if i have two tasks in microtask queue, and there is a task waiting in callback queue?
 
@@ -62,3 +63,16 @@ At this point, two things can happen:
 In either case, the order of execution is generally: microtasks first, and then the callback tasks. The order within the microtask queue and callback queue remains based on their order of arrival.
 
 Remember, JavaScript itself doesn't guarantee a real-time execution order; it adheres to the event loop mechanism. Additionally, browser environments and Node.js can have slight variations in how the event loop is implemented, but the general concepts described above apply.
+
+<hr>
+
+### Promises:
+
+Problems:
+- 99% of developers have no idea how they're working under the hood
+- Debugging becomes super-hard as a result
+- Developers fail technical interviews
+
+Benefits
+- Cleaner readable style with pseudo-synchronous style code
+- Nice error handling process
