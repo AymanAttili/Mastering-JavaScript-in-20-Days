@@ -33,11 +33,12 @@ In this challenge, you will enhance your JavaScript skills and knowledge. Each d
 - Celebrate your achievements and reflect on your growth throughout the challenge.
 
 ## Folder Structure
--  [Day1](https://github.com/AymanAttili/Mastering-JavaScript-in-20-Days/blob/main/Day1.md).
--  [Day2](https://github.com/AymanAttili/Mastering-JavaScript-in-20-Days/blob/main/Day2.md).
--  [Day3](https://github.com/AymanAttili/Mastering-JavaScript-in-20-Days/blob/main/Day3.md).
--  [Day4](https://github.com/AymanAttili/Mastering-JavaScript-in-20-Days/blob/main/Day4.md).
--  [Day5](https://github.com/AymanAttili/Mastering-JavaScript-in-20-Days/blob/main/Day5.md).
--  [Day6](https://github.com/AymanAttili/Mastering-JavaScript-in-20-Days/blob/main/Day6.md).
--  [Day7](https://github.com/AymanAttili/Mastering-JavaScript-in-20-Days/blob/main/Day7.md).
--  [Day8](https://github.com/AymanAttili/Mastering-JavaScript-in-20-Days/blob/main/Day8.md).
+-  [Day1](https://github.com/AymanAttili/Mastering-JavaScript-in-20-Days/blob/main/Day01.md).
+-  [Day2](https://github.com/AymanAttili/Mastering-JavaScript-in-20-Days/blob/main/Day02.md).
+-  [Day3](https://github.com/AymanAttili/Mastering-JavaScript-in-20-Days/blob/main/Day03.md).
+-  [Day4](https://github.com/AymanAttili/Mastering-JavaScript-in-20-Days/blob/main/Day04.md).
+-  [Day5](https://github.com/AymanAttili/Mastering-JavaScript-in-20-Days/blob/main/Day05.md).
+-  [Day6](https://github.com/AymanAttili/Mastering-JavaScript-in-20-Days/blob/main/Day06.md).
+-  [Day7](https://github.com/AymanAttili/Mastering-JavaScript-in-20-Days/blob/main/Day07.md).
+-  [Day8](https://github.com/AymanAttili/Mastering-JavaScript-in-20-Days/blob/main/Day08.md).
+-  [Day9](https://github.com/AymanAttili/Mastering-JavaScript-in-20-Days/blob/main/Day10.md).
