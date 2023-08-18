@@ -9,16 +9,17 @@
 
 
 ## Core of development (and running code):
-1- Save data (e.g. in a quiz game the scores of userl and user2).
 
-2- Run code (functions) using that data (e.g. increase user 2's score).
+1. Save data (e.g. in a quiz game the scores of userl and user2).
+
+2. Run code (functions) using that data (e.g. increase user 2's score).
 
 ## That is, I want my code to be:
 
-1- Easy to reason about.
+1. Easy to reason about.
 
-2- Easy to add features to (new functionality).
+2. Easy to add features to (new functionality).
 
-3- Nevertheless efficient and performant.
+3. Nevertheless efficient and performant.
 
 The Object-oriented paradigm aims is to let us achieve these three goals
