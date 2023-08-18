@@ -93,3 +93,6 @@ const user2 = userCreator("Tim", 5);
 user1.increment()
 
 ```
+  - **Problems:** Each time we create a new user we make space in our computer's memory for all our data and functions. But our functions are just copies.
+  - **Benefits:** It's simple and easy to reason about
+    
