@@ -76,7 +76,7 @@ user3.increment = function() {
 
 - But these ways are not 'DRY'. So we have many solutions:
 
-## Solution1- Generate objects using a function
+## Solution 1- Generate objects using a function
 
 ```javascript
 unction userCreator(name, score) {
@@ -97,7 +97,7 @@ user1.increment()
   - **Benefits:** It's simple and easy to reason about
 
 
-## Solution2- Using the prototype chain
+## Solution 2- Using the prototype chain
 ```javascript
 function userCreator (name, score) {
     const newUser = Object.create(userFunctionStore);
@@ -187,4 +187,21 @@ When we call the function that returns an object with new in front we automate 2
 But now we need to adjust how we write the body of userCreator - how can we:
 - Refer to the auto-created object?
 - Know where to put our single copies of functions?
-  
+
+
+### The new keyword automates a lot of our manual work
+
+![image](https://github.com/AymanAttili/Mastering-JavaScript-in-20-Days/assets/96499629/4375c052-454f-46aa-9060-a92fd54ded1c)
+
+
+## Interlude - functions are both objects and functions 
+
+```javascript
+function multiplyBy2(num){
+    return num*2
+}
+multiplyBy2.stored = 5
+multiplyBy2(3) // 6
+multiplyBy2.stored // 5
+multiplyBy2.prototype // {}
+```
