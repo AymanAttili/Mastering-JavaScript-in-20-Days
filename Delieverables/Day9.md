@@ -87,8 +87,8 @@ const apis = [
 const executeInParallelWithPromises = (apis)=>{
     let arr = [];
     apis.map((api)=>{
-        fetch(api.apiUrl).then((data)=>{
-            return data.json();
+        fetch(api.apiUrl).then((response)=>{
+            return response.json();
         }).then((data)=>{
             arr.push({
                 apiName: api.apiName,
@@ -142,6 +142,30 @@ const apis = [
 ]
 
 //modify and write your code here
-const executeInSequenceWithPromises = (apis) => {}
+const executeInSequenceWithPromises = (apis)=>{
+    let arr = [];
+
+    const fetchNext = (index)=>{
+        if (index < apis.length) {
+            const api = apis[index];
+            fetch(api.apiUrl).then((response)=>{
+                return response.json();
+            }).then((data)=>{
+                arr.push({
+                    apiName: api.apiName,
+                    apiUrl: api.apiUrl,
+                    apiData: data
+                })
+                fetchNext(index + 1);
+            })
+        } else {
+            return;
+        }
+    }
+    fetchNext(0);
+
+    return arr;
+}
+
 
 ```
