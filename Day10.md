@@ -50,7 +50,7 @@ const user1 = {
 };
 user1.increment(); //user1.score -> 4
 ```
-- If i wanna declare an objct and add some properties to it, Ican do this by -dot notantion-.
+- If i wanna declare an objct and add some properties to it, I can do this by -dot notantion-.
 
 ```javascript
 onst user2 = {}; //create an empty object
@@ -61,4 +61,15 @@ user2.increment = function() {
     user2.score++;
 };
 
+```
+
+- There is another way to create objects, Using Object.create.
+
+```javascript
+const user3 = Object.create(null);
+user3.name = "Eva";
+user3.score = 9;
+user3.increment = function() {
+    user3.score++;
+};
 ```
