@@ -169,7 +169,7 @@ user1.increment();
 const userFunctionStore = {
     increment: function() {
         function add1() {
-            console.log(this)
+            this.score++;
         }
         add1.call(this);
     }
