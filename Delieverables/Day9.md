@@ -159,12 +159,10 @@ const executeInSequenceWithPromises = (apis)=>{
                 fetchNext(index + 1);
             })
         } else {
-            return;
+            return arr;
         }
     }
     fetchNext(0);
-
-    return arr;
 }
 
 
