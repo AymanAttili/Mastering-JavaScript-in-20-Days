@@ -76,7 +76,7 @@ user3.increment = function() {
 
 - But these ways are not 'DRY'. So we have many solutions:
 
-1- Generate objects using a function
+    1- Generate objects using a function
 
 ```javascript
 unction userCreator(name, score) {
