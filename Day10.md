@@ -154,7 +154,7 @@ const userFunctionStore = {
     increment: function() { // 'this' here refers to the object runs it.
     function add1(){
         this.score++;
-    } // 'this' here refers to the global memory. And if I wanna make it refers to the object like above, I have to declare the function as an arrow function variable, or by run it by add1.call(this).
+    } // 'this' here refers to the global memory.
     add1()
     }
 };
@@ -163,7 +163,7 @@ const user2 = userCreator("Tim", 5);
 user1.increment();
 ```
 
-- To solve it we can use these ways:
+- To solve it we can like this:
 
 ```javascript
 const userFunctionStore = {
@@ -174,14 +174,4 @@ const userFunctionStore = {
         add1.call(this);
     }
 };
-// Or
-const userFunctionStore = {
-    increment: function() {
-        const add1 = ()=>{
-            this.score++;
-        }
-        add1()
-    }
-};
-
 ```
