@@ -23,3 +23,42 @@
 3. Nevertheless efficient and performant.
 
 The Object-oriented paradigm aims is to let us achieve these three goals
+
+
+## ÷f I'm storing each user in my app with their respective data (let's simplify)
+
+user1: 
+- name: ‘Tim’
+- score: 3
+
+user2: 
+- name: ‘Stephanie’
+- score: 5
+
+And the functionality I need to have for each user (again simplifying!)
+- increment functionality (there’d be a ton of functions in practice)
+  
+How could I store my data and functionality together in one place?
+
+Objects - store functions with their associated data!, This is the principle of encapsulation - and it’s going to transform how we can ‘reason about’ our code.
+
+```javascript
+const user1 = {
+     name: "Will",
+     score: 3,
+     increment: function() { user1.score++; }
+};
+user1.increment(); //user1.score -> 4
+```
+- If i wanna declare an objct and add some properties to it, Ican do this by -dot notantion-.
+
+```javascript
+onst user2 = {}; //create an empty object
+//assign properties to that object
+user2.name = "Tim"; 
+user2.score = 6;
+user2.increment = function() {
+    user2.score++;
+};
+
+```
