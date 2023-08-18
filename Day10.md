@@ -117,3 +117,71 @@ user1.increment();
   - Store the increment function in just one object and have the interpreter, if it doesn't find the function on user1, look up to that object to check if it's there.
   - Link user1 and functionStore so the interpreter, on not finding .increment, makes  sure to check up in functionStore where it would find it
   - Make the link with Object.create() technique
+
+
+* If I wanna check if a project have a specific property, Ican do it using .hasOwnProperty() function.
+
+```javascript
+function userCreator (name, score) {
+    const newUser = Object.create(userFunctionStore);
+    newUser.name = name;
+    newUser.score = score;
+    return newUser;
+};
+const userFunctionStore = {
+    increment: function(){this.score++;},
+    login: function(){console.log("Logged in");}
+};
+const user1 = userCreator("Will", 3);
+const user2 = userCreator("Tim", 5);
+user1.hasOwnProperty('score') 
+```
+
+* All objects have a __proto__ property by default which defaults to linking to a big  object - Object.prototype full of (somewhat) useful functions.
+*  get access to it via userFunctionStore’s __proto__ property - the chain.
+
+
+- What happens if i use 'this' keyword in nested function.
+
+```javascript
+function userCreator(name, score) {
+    const newUser = Object.create(userFunctionStore);
+    newUser.name = name;
+    newUser.score = score;
+    return newUser;
+};
+const userFunctionStore = {
+    increment: function() { // 'this' here refers to the object runs it.
+    function add1(){
+        this.score++;
+    } // 'this' here refers to the global memory. And if I wanna make it refers to the object like above, I have to declare the function as an arrow function variable, or by run it by add1.call(this).
+    add1()
+    }
+};
+const user1 = userCreator("Will", 3);
+const user2 = userCreator("Tim", 5);
+user1.increment();
+```
+
+- To solve it we can use these ways:
+
+```javascript
+const userFunctionStore = {
+    increment: function() {
+        function add1() {
+            console.log(this)
+        }
+        add1.call(this);
+    }
+};
+// Or
+const userFunctionStore = {
+    increment: function() {
+        const add1 = ()=>{
+            this.score++;
+        }
+        add1()
+    }
+};
+
+```
