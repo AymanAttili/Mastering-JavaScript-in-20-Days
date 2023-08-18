@@ -84,8 +84,22 @@ const apis = [
   }
 ]
 
-const executeInParallelWithPromises = (apis) => {}
+const executeInParallelWithPromises = (apis)=>{
+    let arr = [];
+    apis.map((api)=>{
+        fetch(api.apiUrl).then((data)=>{
+            return data.json();
+        }).then((data)=>{
+            arr.push({
+                apiName: api.apiName,
+                apiUrl: api.apiUrl,
+                apiData: data
+            });
+        })
+    })
 
+    return arr;
+}
 ```
 
 -------------------------------------------------------------------
