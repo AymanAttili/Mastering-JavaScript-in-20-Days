@@ -76,7 +76,7 @@ user3.increment = function() {
 
 - But these ways are not 'DRY'. So we have many solutions:
 
-    ### Solution1- Generate objects using a function
+## Solution1- Generate objects using a function
 
 ```javascript
 unction userCreator(name, score) {
@@ -97,7 +97,7 @@ user1.increment()
   - **Benefits:** It's simple and easy to reason about
 
 
-    ### Solution2- Using the prototype chain
+## Solution2- Using the prototype chain
 ```javascript
 function userCreator (name, score) {
     const newUser = Object.create(userFunctionStore);
@@ -180,7 +180,7 @@ const userFunctionStore = {
   Arrow functions have a lexical binding for the this keyword. This means that they do not have their own this value; instead, they inherit the this value from the enclosing scope. This behavior can be beneficial in certain scenarios, but it's important to understand the implications.
 
 
-  ### Solution 3 - Introducing the keyword that automates the hard work: new
+## Solution 3 - Introducing the keyword that automates the hard work: new
 When we call the function that returns an object with new in front we automate 2 things
 1. Create a new user object
 2. Return the new user object
