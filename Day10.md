@@ -73,3 +73,23 @@ user3.increment = function() {
     user3.score++;
 };
 ```
+
+- But these ways are not 'DRY'. So we have many solutions:
+
+1- Generate objects using a function
+
+```javascript
+unction userCreator(name, score) {
+     const newUser = {};
+     newUser.name = name;
+     newUser.score = score;
+     newUser.increment = function() {
+         newUser.score++;
+     };
+     return newUser;
+};
+const user1 = userCreator("Will", 3);
+const user2 = userCreator("Tim", 5);
+user1.increment()
+
+```
