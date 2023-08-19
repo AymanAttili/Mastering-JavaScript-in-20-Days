@@ -227,4 +227,4 @@ user1.increment()
 ### Problems: 
 
 - 95% of developers have no idea how it works and therefore fail interviews.
-We have to upper case first letter of the function so we know it requires ‘new’ to work! 
+- We have to upper case first letter of the function so we know it requires ‘new’ to work! 
