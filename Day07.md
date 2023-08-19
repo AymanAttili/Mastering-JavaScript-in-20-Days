@@ -8,7 +8,7 @@
 <h3>Functions</h3>
 Code we save ('define') functions & can use (callinvoke/execute/run) later with the function's name & ( ).
 
-<h3>Excutiob Context</h3>
+<h3>Excution Context</h3>
 Created to run the code of a function - has 2 parts:
 - Thread of execution -JS just have one-.
 - Memory.
