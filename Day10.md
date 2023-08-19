@@ -96,6 +96,7 @@ user1.increment()
   - **Problems:** Each time we create a new user we make space in our computer's memory for all our data and functions. But our functions are just copies.
   - **Benefits:** It's simple and easy to reason about
 
+<hr>
 
 ## Solution 2- Using the prototype chain
 ```javascript
@@ -179,6 +180,7 @@ const userFunctionStore = {
 - Arrow functions are Lexical this Binding:
   Arrow functions have a lexical binding for the this keyword. This means that they do not have their own this value; instead, they inherit the this value from the enclosing scope. This behavior can be beneficial in certain scenarios, but it's important to understand the implications.
 
+<hr>
 
 ## Solution 3 - Introducing the keyword that automates the hard work: new
 When we call the function that returns an object with new in front we automate 2 things
@@ -228,3 +230,23 @@ user1.increment()
 
 - 95% of developers have no idea how it works and therefore fail interviews.
 - We have to upper case first letter of the function so we know it requires ‘new’ to work! 
+
+<hr>
+
+## Solution 4: The class.
+
+We’re writing our shared methods separately from our object ‘constructor’ itself (off in the userCreator.prototype object)
+
+Other languages let us do this all in one place. ES6 lets us do so tooز
+
+![image](https://github.com/AymanAttili/Mastering-JavaScript-in-20-Days/assets/96499629/94e039aa-99d9-48e6-acc3-02050d3c8cf1)
+
+## Benefits: 
+
+- Emerging as a new standard.
+- Feels more like style of other languages (e.g. Python).
+
+## Problems: 
+
+- 99% of developers have no idea how it works and therefore fail interviews.
+- But you will not be one of them!.
