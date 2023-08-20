@@ -42,9 +42,28 @@ const task5 = (cb) => setTimeout(() => {
 
 const asyncTasks = [task1, task2, task3, task4, task5];
 
-const executeInSequenceWithCBs = (tasks, callback) => {
-    
+const executeInSequenceWithCBs = (tasks,callback)=>{
+    let result = [];
+    const excuteTask = (ind)=>{
+        if (ind == tasks.length) {
+            return;
+        }
+
+        const task = tasks[ind];
+        task((message)=>{
+            callback(message);
+            excuteTask(ind + 1);
+        }
+        )
+    }
+
+    excuteTask(0);
 }
+executeInSequenceWithCBs(asyncTasks, (data)=>{
+    console.log(data);
+}
+)
+
 
 ```
 
