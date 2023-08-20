@@ -86,21 +86,23 @@ const apis = [
 ]
 
 const executeInParallelWithPromises = (apis)=>{
-    let arr = [];
-    apis.map((api)=>{
-        fetch(api.apiUrl).then((response)=>{
-            return response.json();
-        }).then((data)=>{
-            arr.push({
+    let arr = apis.map((api)=>{
+        return fetch(api.apiUrl)
+        .then((response) => { response.json()})
+        .then(data => ({
                 apiName: api.apiName,
                 apiUrl: api.apiUrl,
                 apiData: data
-            });
-        })
+            }));
     })
 
-    return arr;
+    return Promise.all(arr);
+
 }
+
+executeInParallelWithPromises(apis).then((data)=>{
+  console.log(data)
+});
 ```
 
 -------------------------------------------------------------------
@@ -143,7 +145,7 @@ const apis = [
 ]
 
 //modify and write your code here
-const executeInSequenceWithPromises = (apis)=>{
+const executeInSequenceWithPromises = (apis,cb)=>{
     let arr = [];
 
     const fetchNext = (index)=>{
@@ -151,20 +153,27 @@ const executeInSequenceWithPromises = (apis)=>{
             const api = apis[index];
             fetch(api.apiUrl).then((response)=>{
                 return response.json();
-            }).then((data)=>{
+            }
+            ).then((data)=>{
                 arr.push({
                     apiName: api.apiName,
                     apiUrl: api.apiUrl,
                     apiData: data
                 })
                 fetchNext(index + 1);
-            })
+            }
+            )
         } else {
-            return arr;
+            cb(arr)
         }
     }
     fetchNext(0);
 }
+executeInSequenceWithPromises(apis, (data)=>{
+    console.log(data);
+}
+)
+
 
 
 ```
