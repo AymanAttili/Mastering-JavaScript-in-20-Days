@@ -46,3 +46,6 @@ Second Course:
 -  [Day8](https://github.com/AymanAttili/Mastering-JavaScript-in-20-Days/blob/main/Day08.md).
 -  [Day9](https://github.com/AymanAttili/Mastering-JavaScript-in-20-Days/blob/main/Day09.md).
 -  [Day10](https://github.com/AymanAttili/Mastering-JavaScript-in-20-Days/blob/main/Day10.md).
+
+Third Course:
+-  [Day11](https://github.com/AymanAttili/Mastering-JavaScript-in-20-Days/blob/main/Day11.md).
