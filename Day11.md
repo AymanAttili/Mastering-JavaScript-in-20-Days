@@ -10,5 +10,8 @@
 - string.
 - number.
 - boolean.
-- object.
+- object. including arrays and functions.
 - symbol.
+
+### In javaScript variables don't have types, but values have.
+
