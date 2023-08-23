@@ -52,4 +52,7 @@ typeof v;  //bigint
 
 - undefined: means that the variable doesn't have a value now.
 
-<h3></h3>
+<h2>undefined vs undeclared</h2>
+
+- undefined: I have the variable, but it hasn't any value.
+- undeclared: I didn;t declare the variable essentiallyز
