@@ -54,5 +54,5 @@ typeof v;  //bigint
 
 <h2>undefined vs undeclared</h2>
 
-- undefined: I have the variable, but it hasn't any value.
-- undeclared: I didn;t declare the variable essentiallyز
+- **undefined:** I have the variable, but it hasn't any value.
+- **undeclared:** I didn;t declare the variable essentiallyز
