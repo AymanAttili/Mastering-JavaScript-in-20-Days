@@ -15,3 +15,9 @@
 
 ### In javaScript variables don't have types, but values have.
 
+<h2>typeof</h2>
+
+```javascript
+var v;
+typeof v;  // here we are asking what is the type of the value in v
+```
