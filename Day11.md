@@ -1,4 +1,4 @@
-<h1>Day 11</h1>
+# Day 11
 
 <h1>Types</h1>
 
