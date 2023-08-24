@@ -118,20 +118,5 @@ const complexCoercion = (input) => {
 
 
     return input;
-  }const complexCoercion = (input) => {
-    if(typeof input === "number"){
-      input = String(input);
-    }
-
-    if(typeof input === "string"){
-      return Boolean(input);
-    }
-
-    if(input == null){
-      return false;
-    }
-
-
-    return input;
 }
 ```
