@@ -96,3 +96,8 @@ Object.is( 0, -0) //false.
   - String()
   - Number()
   - Boolean()
+
+
+<hr>
+
+## Delieverables.
