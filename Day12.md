@@ -61,6 +61,7 @@
 ![image](https://github.com/AymanAttili/Mastering-JavaScript-in-20-Days/assets/96499629/40b8ffe0-af1e-4d2d-a294-6517262be13b)
 
 
+
 <h2>Cases of coercion</h2>
 
 - If I put plus operator between two values one of them is a string, then the result is a string.
@@ -86,3 +87,27 @@ ${age.toString()};
 ${String(age)};
 
 ```
+
+- I can convert a string to number by putting unary plus operator before it;
+
+```javascript
+let str = '12';
+
+console.log(str + 1); // 121
+console.log(+str + 1); // 13
+console.log(str - 1); // 11
+```
+
+<hr>
+<h2>Boxing</h2>
+
+- Helps us to access properties on primitive values.
+
+```javascript
+let len = "Ayman".length;
+```
+
+<hr>
+<h2>Corner Cases of Coercion</h2>
+
+![image](https://github.com/AymanAttili/Mastering-JavaScript-in-20-Days/assets/96499629/b55b287d-b015-4655-8ee4-aa493792d372)
