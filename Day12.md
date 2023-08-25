@@ -58,3 +58,31 @@
 
 <h2>toBoolean()</h2>
 
+![image](https://github.com/AymanAttili/Mastering-JavaScript-in-20-Days/assets/96499629/40b8ffe0-af1e-4d2d-a294-6517262be13b)
+
+
+<h2>Cases of coercion</h2>
+
+- If I put plus operator between two values one of them is a string, then the result is a string.
+  
+```javascript
+let msg1 = "Hello";
+let msg2 = 4;
+
+console.log(msg1 + msg2); "Hello 4"
+```
+
+```javascript
+let age = 21;
+
+console.log(`My name is Ayman, I'm ${age} years old.`); //My name is Ayman, I'm 21 years old.
+
+// don't do this:
+${age + ""};
+${[age].join("")};
+${age.toString()};
+
+// If you wanna be explicit use this:
+${String(age)};
+
+```
