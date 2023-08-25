@@ -49,3 +49,4 @@ Second Course:
 
 Third Course:
 -  [Day11](https://github.com/AymanAttili/Mastering-JavaScript-in-20-Days/blob/main/Day11.md).
+-  [Day12](https://github.com/AymanAttili/Mastering-JavaScript-in-20-Days/blob/main/Day12.md).
