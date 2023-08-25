@@ -105,11 +105,11 @@ If input is not a primitive type, return the argument.
 ```javascript
 const complexCoercion = (input) => {
     if(typeof input === "number"){
-      input = String(input);
+      input = toString(input);
     }
 
     if(typeof input === "string"){
-      return Boolean(input);
+      return toBoolean(input);
     }
 
     if(input == null){
